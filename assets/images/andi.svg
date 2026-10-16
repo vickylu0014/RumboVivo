@@ -1,0 +1,215 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 336"
+  role="img"
+  aria-labelledby="andi-svg-title andi-svg-description"
+>
+  <title id="andi-svg-title">Andi, el cóndor andino de Rumbo Vivo</title>
+  <desc id="andi-svg-description">
+    Un cóndor amistoso de plumaje gris oscuro, collar blanco, pico dorado y ojos
+    cálidos. Sus alas naturales tienen pequeños detalles verdes que recuerdan el
+    cuidado de la biodiversidad.
+  </desc>
+  <view id="retrato" viewBox="122 13 126 150" />
+  <style>
+    .andi-flight {
+      transform-origin: 160px 288px;
+      animation: andi-sway 6.8s ease-in-out infinite;
+    }
+    .andi-wing-left {
+      transform-origin: 125px 164px;
+      animation: andi-left 6.8s ease-in-out infinite;
+    }
+    .andi-wing-right {
+      transform-origin: 207px 165px;
+      animation: andi-right 6.8s ease-in-out infinite;
+    }
+    @keyframes andi-sway {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-2px);
+      }
+    }
+    @keyframes andi-left {
+      0%,
+      100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(2deg);
+      }
+    }
+    @keyframes andi-right {
+      0%,
+      100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(-2deg);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .andi-flight,
+      .andi-wing-left,
+      .andi-wing-right {
+        animation: none;
+      }
+    }
+  </style>
+  <ellipse cx="163" cy="315" rx="65" ry="8" fill="#174d3a" opacity=".09" />
+  <g class="andi-flight">
+    <!-- Cola y patas: una silueta de ave, sin accesorios. -->
+    <path
+      d="M134 239c-9 17-19 35-15 43 3 6 13 0 21-9-3 13 2 21 9 16l15-18c0 17 7 20 13 12l19-36Z"
+      fill="#29333c"
+    />
+    <g fill="#d6a348" stroke="#b98434" stroke-width="2" stroke-linejoin="round">
+      <path
+        d="m143 264-4 30-14 8c-5 3-3 8 2 7l15-5 10 6c4 3 9-1 5-5l-8-9 6-30Z"
+      />
+      <path
+        d="m182 263 5 31-5 10c-2 5 3 7 6 4l7-6 15 4c6 2 9-3 3-6l-15-7-3-31Z"
+      />
+    </g>
+    <path
+      d="m126 303-5 6m23-6 2 7m43-7-2 7m22-8 6 6"
+      fill="none"
+      stroke="#354047"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+    <g class="andi-wing-left">
+      <path
+        d="M136 160c-19-26-42-18-57 5-17 29-30 60-55 79-8 6-6 16 4 15l20-8c-16 18-15 28-5 26l24-16c-14 22-9 29 1 23l24-24c-9 20-3 28 7 17l29-43 28-50Z"
+        fill="#303b44"
+      />
+      <path
+        d="M115 151c-19-4-28 12-39 33-13 23-24 41-40 57 20-7 40-27 55-52-7 23-18 44-31 61 22-11 43-42 50-67-2 23-11 49-23 66 18-13 29-38 35-62Z"
+        fill="#48535b"
+      />
+      <path d="M99 156c-7 1-16 8-20 16 10 2 21-3 28-12Z" fill="#a4ba8f" />
+      <path d="M80 177c-8 8-15 19-19 29 13-4 23-14 28-24Z" fill="#315b49" />
+      <path d="M125 168c-8 7-14 15-17 26 10-3 17-10 21-17Z" fill="#58636a" />
+    </g>
+    <g class="andi-wing-right">
+      <path
+        d="M202 159c17-23 35-16 48 7 15 27 23 50 45 68 9 8 7 15-3 14l-14-7c12 16 10 24 1 20l-19-13c9 18 3 24-5 17l-18-20c6 19 1 25-8 15l-23-35-18-47Z"
+        fill="#2b353e"
+      />
+      <path
+        d="M219 154c14-4 24 12 31 27 10 23 19 42 31 55-18-6-30-26-41-47 6 23 15 39 23 52-18-10-32-34-39-55 2 25 11 47 20 59-19-13-30-36-34-60Z"
+        fill="#46525a"
+      />
+      <path d="M235 161c7 3 12 10 16 17-10-1-19-5-23-13Z" fill="#a4ba8f" />
+      <path d="m251 183 14 27c-12-6-20-13-24-23Z" fill="#315b49" />
+    </g>
+    <path
+      d="M134 150c-17 14-25 42-22 71 2 33 21 61 53 61 34 0 53-30 53-66 0-28-5-51-21-64Z"
+      fill="#38434a"
+    />
+    <path
+      d="M146 173c-16 23-18 54-8 74 7 14 16 22 27 25 26-12 40-37 36-66-2-16-8-27-15-34Z"
+      fill="#455159"
+    />
+    <path
+      d="m141 209 7 17 8-13 8 23 11-17 9 9 7-21"
+      fill="none"
+      stroke="#536067"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M175 180c9-4 17-2 21 1-2 12-11 19-20 17 3-7 5-12 11-15"
+      fill="#94ad80"
+    />
+    <path
+      d="m176 198 11-15"
+      fill="none"
+      stroke="#315b49"
+      stroke-width="1.7"
+      stroke-linecap="round"
+    />
+    <!-- Collar blanco: el rasgo que distingue a Andi de otras aves. -->
+    <path
+      d="M137 119c-13 5-19 16-15 28l7-3c-1 11 4 20 13 23l2-8c5 14 14 21 23 20l-1-9c9 10 19 13 27 8l-3-8c10 4 20-1 25-9l-5-5c9-5 12-16 7-24l-7 3c-6-14-18-19-33-19Z"
+      fill="#fafaf5"
+    />
+    <path
+      d="M129 137c8 16 22 27 37 31l-4-11c12 11 26 15 37 11-21-10-32-21-39-33Z"
+      fill="#eee8d9"
+    />
+    <path
+      d="M143 127c13 14 31 22 45 26l-4-10c12 6 20 4 25-1-8-13-23-20-37-22Z"
+      fill="#fffdf6"
+    />
+    <g id="andi-head">
+      <path
+        d="M145 119c-9-10-12-24-10-38 3-23 21-42 43-43 21-2 37 13 39 34l-3 22c-3 15-16 23-19 38l2 18c-22-6-40-17-52-31Z"
+        fill="#38434a"
+      />
+      <path
+        d="M151 49c-9-8-8-21 0-26 15-8 32 6 36 22-14-3-24-2-36 4Z"
+        fill="#465159"
+      />
+      <path
+        d="M143 81c-8 8-12 17-12 28l9-6c-2 11 2 19 8 24l3-8c4 10 9 14 17 16-12-19-17-34-16-50Z"
+        fill="#455159"
+      />
+      <path
+        d="M149 74c2-13 10-22 20-22 9 0 17 5 18 13-17-4-25 1-38 9Z"
+        fill="#556068"
+      />
+      <ellipse cx="201" cy="75" rx="9" ry="12" fill="#eee8dc" />
+      <ellipse cx="204" cy="77" rx="5.5" ry="8" fill="#63472d" />
+      <ellipse cx="205" cy="78" rx="3.5" ry="6" fill="#242d32" />
+      <circle cx="204" cy="73" r="2" fill="#fffdf6" />
+      <ellipse cx="163" cy="86" rx="15" ry="18" fill="#f5f0e4" />
+      <ellipse cx="168" cy="89" rx="8.5" ry="12" fill="#735135" />
+      <ellipse cx="169" cy="90" rx="5.5" ry="9" fill="#222d34" />
+      <circle cx="166" cy="83" r="3.6" fill="#fffdf6" />
+      <circle cx="172" cy="93" r="1.5" fill="#f2e9d1" />
+      <path
+        d="M149 72c7-7 18-8 26-3m20-9c5-3 11 0 13 4"
+        fill="none"
+        stroke="#26323b"
+        stroke-width="4"
+        stroke-linecap="round"
+      />
+      <path
+        d="M183 91c12-12 28-13 41-5 13 8 17 25 9 39l-7 10c1-13-5-18-17-20-13-1-22-6-26-13-3-5-3-7 0-11Z"
+        fill="#d6a348"
+      />
+      <path
+        d="M211 88c13 3 20 15 18 28-2-7-9-11-17-12l-21-4c10 10 18 10 28 12 6 2 9 7 7 20 13-10 18-31 5-43Z"
+        fill="#c08a34"
+        opacity=".55"
+      />
+      <ellipse
+        cx="214"
+        cy="94"
+        rx="4"
+        ry="2.5"
+        transform="rotate(18 214 94)"
+        fill="#93682d"
+      />
+      <path
+        d="M188 101c8 9 19 10 30 12"
+        fill="none"
+        stroke="#9e7130"
+        stroke-width="2.2"
+        stroke-linecap="round"
+      />
+      <path
+        d="m187 101-5-1"
+        fill="none"
+        stroke="#a57b3b"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+</svg>
