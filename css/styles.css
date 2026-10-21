@@ -3518,3 +3518,45 @@ dialog::backdrop {
     transform: none;
   }
 }
+
+
+/* Presentación desplegable de Entrega 1: estilos aislados de esta sección */
+.delivery-presentation {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.5fr);
+  gap: 28px;
+  align-items: start;
+  padding: clamp(22px, 4vw, 42px);
+  border: 1px solid var(--line, rgba(23, 77, 58, .18));
+  border-radius: 22px;
+  background: var(--surface, #fff);
+}
+.delivery-intro { position: sticky; top: 110px; }
+.delivery-kicker { display: inline-block; margin-bottom: 14px; color: var(--green, #174d3a); font-size: 10px; font-weight: 800; letter-spacing: 1.6px; }
+.delivery-intro h3 { margin: 0 0 14px; color: var(--green, #174d3a); font-family: var(--font-display, inherit); font-size: clamp(27px, 3vw, 40px); line-height: 1.1; }
+.delivery-intro h3 span { display: block; margin-top: 8px; color: var(--muted, #6a746e); font-size: .62em; }
+.delivery-intro p, .delivery-slide-body { color: var(--text, #38443d); font-size: 14px; line-height: 1.75; }
+.delivery-slides { display: grid; gap: 10px; min-width: 0; }
+.delivery-slide { overflow: hidden; border: 1px solid rgba(23,77,58,.15); border-radius: 13px; background: #fff; }
+.delivery-slide summary { display: flex; align-items: center; gap: 13px; padding: 16px 18px; color: #174d3a; font-weight: 750; cursor: pointer; list-style: none; }
+.delivery-slide summary::-webkit-details-marker { display: none; }
+.delivery-slide summary::after { content: "+"; margin-left: auto; color: #66826f; font-size: 22px; font-weight: 400; }
+.delivery-slide[open] summary::after { content: "−"; }
+.delivery-number { display: inline-grid; flex: 0 0 34px; width: 34px; height: 34px; place-items: center; border-radius: 50%; background: #edf3e8; color: #174d3a; font-size: 11px; }
+.delivery-slide-body { padding: 0 20px 19px 65px; font-size: 13px; }
+.delivery-slide-body p { margin: 0 0 12px; }
+.delivery-slide-body p:last-child { margin-bottom: 0; }
+.delivery-slide-body h4 { margin: 0 0 7px; color: #174d3a; font-size: 13px; }
+.delivery-slide-body ul, .delivery-slide-body ol { margin: 8px 0 0; padding-left: 19px; }
+.delivery-slide-body li { margin: 0 0 7px; }
+.delivery-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px; }
+.delivery-highlight { padding: 12px 14px; border-left: 3px solid #b5c96a; border-radius: 0 8px 8px 0; background: #f3f5e9; font-weight: 750; }
+.delivery-contact { color: #174d3a; font-weight: 750; }
+.delivery-contact span { padding: 0 5px; color: #8a9a8d; }
+.delivery-note { margin: 15px 0 0; color: #7a847d; font-size: 11px; }
+@media (max-width: 800px) {
+  .delivery-presentation { grid-template-columns: 1fr; gap: 22px; }
+  .delivery-intro { position: static; }
+  .delivery-columns { grid-template-columns: 1fr; gap: 13px; }
+  .delivery-slide-body { padding-left: 20px; }
+}
