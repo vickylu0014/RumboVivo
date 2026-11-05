@@ -3652,12 +3652,12 @@ dialog::backdrop {
 
 /* Entrega 2: vistas previas compactas con apertura ampliada */
 .delivery2-item a { display: flex; justify-content: center; align-items: center; min-height: 190px; padding: 14px; cursor: zoom-in; }
-.delivery2-item img { width: auto; max-width: min(100%, 760px); max-height: 360px; margin: 0 auto; object-fit: contain; }
+.delivery2-item img { width: auto; max-width: min(100%, 620px); max-height: 240px; margin: 0 auto; object-fit: contain; }
 .delivery2-item a:hover img { transform: scale(1.015); transition: transform .2s ease; }
 .delivery2-item figcaption::after { content: "Hacé clic en la imagen para ampliar"; margin-left: auto; color: #7a847d; font-size: 10px; font-weight: 500; }
 @media (max-width: 620px) {
   .delivery2-item a { min-height: 150px; padding: 10px; }
-  .delivery2-item img { max-height: 260px; }
+  .delivery2-item img { max-height: 180px; }
   .delivery2-item figcaption { flex-wrap: wrap; }
   .delivery2-item figcaption::after { width: 100%; margin-left: 38px; }
 }
