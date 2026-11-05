@@ -3640,3 +3640,11 @@ dialog::backdrop {
 @media (max-width: 800px) {
   .delivery2-pdf iframe { min-height: 390px; }
 }
+
+
+/* Navegación visible entre las entregas */
+.delivery-nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 22px; }
+.delivery-nav a { display: inline-flex; flex-direction: column; gap: 4px; min-width: 190px; padding: 13px 17px; border: 1px solid var(--line, rgba(23,77,58,.18)); border-radius: 12px; background: var(--surface, #fff); color: var(--green, #174d3a); font-size: 14px; font-weight: 800; text-decoration: none; transition: background .2s ease, transform .2s ease; }
+.delivery-nav a:hover { transform: translateY(-2px); background: #edf3e8; }
+.delivery-nav a span { color: var(--muted, #6a746e); font-size: 11px; font-weight: 500; }
+#entrega-1, #entrega-2 { scroll-margin-top: 105px; }
