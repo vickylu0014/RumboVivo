@@ -3580,3 +3580,46 @@ dialog::backdrop {
   .delivery-columns { grid-template-columns: 1fr; gap: 13px; }
   .delivery-slide-body { padding-left: 20px; }
 }
+
+
+/* Nuevo posicionamiento: sección de propósito y pilares de Rumbo Vivo */
+.purpose-section { padding-top: clamp(62px, 8vw, 105px); padding-bottom: clamp(62px, 8vw, 105px); }
+.purpose-heading { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(250px, .65fr); gap: clamp(35px, 7vw, 100px); align-items: center; }
+.purpose-copy h2 { margin: 0 0 22px; color: var(--forest); font-size: clamp(39px, 5vw, 62px); letter-spacing: -2px; line-height: 1.05; }
+.purpose-copy h2 em { color: #78936a; font-family: Fraunces, serif; font-weight: 500; }
+.purpose-lead { max-width: 650px; margin: 0 0 25px; color: var(--muted); font-size: 15px; line-height: 1.85; }
+.purpose-andi { position: relative; display: flex; flex-direction: column; align-items: center; padding: 28px 27px 25px; border: 1px solid var(--line); border-radius: 22px; background: #f1f3e9; text-align: center; }
+.purpose-andi-image { display: grid; width: 145px; height: 145px; place-items: center; margin-bottom: 17px; border-radius: 50%; background: #e2e9d5; }
+.purpose-andi-image img { width: 112px; height: 112px; object-fit: contain; }
+.purpose-quote { max-width: 330px; color: var(--forest); font-family: Fraunces, serif; font-size: 19px; line-height: 1.45; }
+.purpose-andi > span { margin-top: 13px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+.purpose-pillars { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px; margin-top: clamp(42px, 6vw, 72px); }
+.purpose-pillar { min-height: 225px; padding: 24px 21px; border: 1px solid var(--line); border-radius: 15px; background: #fff; transition: transform .25s ease, box-shadow .25s ease; }
+.purpose-pillar:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.purpose-icon { display: grid; width: 42px; height: 42px; place-items: center; margin-bottom: 21px; border-radius: 12px; background: #edf3e8; color: var(--forest); }
+.purpose-icon .icon { width: 21px; height: 21px; }
+.purpose-index { margin-bottom: 9px; color: #82936e; font-size: 9px; font-weight: 800; letter-spacing: 1.4px; }
+.purpose-pillar h3 { margin-bottom: 9px; color: var(--forest); font-size: 19px; }
+.purpose-pillar > p:last-child { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.purpose-footnote { max-width: 760px; margin: 23px auto 0; color: var(--muted); font-size: 11px; line-height: 1.7; text-align: center; }
+@media (max-width: 900px) {
+  .purpose-heading { grid-template-columns: 1fr .8fr; gap: 28px; }
+  .purpose-pillars { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .purpose-heading { grid-template-columns: 1fr; }
+  .purpose-copy h2 { font-size: 39px; }
+  .purpose-lead { font-size: 13px; }
+  .purpose-andi { max-width: 440px; margin-inline: auto; }
+  .purpose-pillars { grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 30px; }
+  .purpose-pillar { min-height: 205px; padding: 18px 15px; }
+  .purpose-pillar h3 { font-size: 16px; }
+  .purpose-pillar > p:last-child { font-size: 11px; }
+}
+@media (max-width: 390px) {
+  .purpose-pillars { grid-template-columns: 1fr; }
+  .purpose-pillar { min-height: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .purpose-pillar:hover { transform: none; }
+}
