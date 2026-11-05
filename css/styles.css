@@ -3623,3 +3623,20 @@ dialog::backdrop {
 @media (prefers-reduced-motion: reduce) {
   .purpose-pillar:hover { transform: none; }
 }
+
+
+/* Entrega 2: galería ordenada y visor del documento */
+.delivery2-content { display: grid; gap: 18px; min-width: 0; }
+.delivery2-item { margin: 0; overflow: hidden; border: 1px solid rgba(23,77,58,.15); border-radius: 14px; background: #fff; }
+.delivery2-item figcaption { display: flex; align-items: center; gap: 10px; padding: 13px 16px; color: #174d3a; font-size: 13px; font-weight: 750; }
+.delivery2-item figcaption span { display: inline-grid; width: 28px; height: 28px; place-items: center; border-radius: 50%; background: #edf3e8; font-size: 10px; }
+.delivery2-item a { display: block; background: #f5f6f1; }
+.delivery2-item img { display: block; width: 100%; height: auto; max-height: 620px; object-fit: contain; }
+.delivery2-pdf { overflow: hidden; padding: 17px; border: 1px solid rgba(23,77,58,.15); border-radius: 14px; background: #fff; }
+.delivery2-pdf h4 { margin: 0 0 5px; color: #174d3a; font-size: 15px; }
+.delivery2-pdf p { margin: 0 0 14px; color: #6a746e; font-size: 12px; }
+.delivery2-pdf iframe { display: block; width: 100%; height: min(75vh, 760px); min-height: 480px; border: 0; border-radius: 8px; background: #f5f6f1; }
+.delivery2-pdf > a { display: inline-block; margin-top: 12px; color: #174d3a; font-size: 12px; font-weight: 750; text-decoration: underline; }
+@media (max-width: 800px) {
+  .delivery2-pdf iframe { min-height: 390px; }
+}
