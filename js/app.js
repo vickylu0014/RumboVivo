@@ -252,7 +252,7 @@
   $("#destination-grid").innerHTML = destinations
     .map(
       (dest) =>
-        `<a class="destination-card reveal" href="#alojamientos" data-destination="${dest.id}" aria-label="Explorar alojamientos en ${dest.name}, ${dest.country}"><img src="${imageSource(dest.image)}" alt="Paisaje de ${dest.name}" loading="lazy" width="600" height="500"><span class="country">${icon("pin")}${dest.country}</span><div><h3>${dest.name}</h3><p>${dest.tag}</p></div><span class="round-arrow">${icon("northeast")}</span><div class="destination-description" aria-hidden="true"><h3>${dest.name}</h3><p>${dest.description}</p><span>Explorar alojamientos ${icon("arrow")}</span></div></a>`,
+        `<a class="destination-card reveal" href="#alojamientos" data-destination="${dest.id}" aria-label="Explorar alojamientos en ${dest.name}, ${dest.country}"><img src="${imageSource(dest.image)}" alt="Paisaje de ${dest.name}" loading="lazy" width="600" height="500"><span class="country">${icon("pin")}${dest.country}</span>${dest.country !== "Argentina" ? '<span class="expansion-badge">Estamos expandiéndonos</span>' : ""}<div><h3>${dest.name}</h3><p>${dest.tag}</p></div><span class="round-arrow">${icon("northeast")}</span><div class="destination-description" aria-hidden="true"><h3>${dest.name}</h3><p>${dest.description}</p><span>Explorar alojamientos ${icon("arrow")}</span></div></a>`,
     )
     .join("");
 
