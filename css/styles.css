@@ -702,6 +702,26 @@ label {
   width: 13px;
   height: 13px;
 }
+.destination-card .expansion-badge {
+  position: absolute;
+  top: 49px;
+  left: 25px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: calc(100% - 50px);
+  padding: 7px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: var(--lime, #dce98b);
+  color: var(--forest, #174d3a);
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+}
 .destination-card p {
   color: #f4f5ef;
   font-size: 11px;
