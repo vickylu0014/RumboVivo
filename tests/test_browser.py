@@ -196,7 +196,7 @@ class RumboVivoBrowserTests(unittest.TestCase):
         self.page.set_viewport_size({'width': 360, 'height': 800})
         self.page.locator('#menu-toggle').click()
         expect(self.page.locator('#menu-toggle')).to_have_attribute('aria-expanded', 'true')
-        for name in ['Inicio', 'Destinos', 'Alojamientos', 'Triple impacto', 'Cómo funciona', 'Nosotros', 'Contacto']:
+        for name in ['Inicio', 'Destinos', 'Alojamientos', 'Triple impacto', 'Cómo funciona', 'Nosotros', 'Contactanos']:
             expect(self.page.locator('#main-nav').get_by_role('link', name=name, exact=False)).to_be_visible()
         self.page.keyboard.press('Escape')
         expect(self.page.locator('#menu-toggle')).to_have_attribute('aria-expanded', 'false')
@@ -254,7 +254,7 @@ class RumboVivoBrowserTests(unittest.TestCase):
             expect(image).to_have_js_property('complete', True)
             self.assertIsNone(image.get_attribute('data-fallback'))
             self.assertGreater(image.evaluate('(image) => image.naturalWidth'), 0)
-        expect(self.page.locator('#nosotros .andi-intro')).to_contain_text('biodiversidad')
+        expect(self.page.locator('#andi .andi-intro')).to_contain_text('biodiversidad')
         expect(self.page.locator('#nosotros .andi-intro')).to_contain_text('turismo responsable')
         self.page.goto(self.base_url + '/assets/images/andi.svg')
         for selector in ['.andi-flight', '.andi-wing-left', '.andi-wing-right']:
@@ -263,6 +263,22 @@ class RumboVivoBrowserTests(unittest.TestCase):
         self.page.wait_for_function("getComputedStyle(document.querySelector('.andi-wing-left')).animationName !== 'none'")
         for selector in ['.andi-flight', '.andi-wing-left', '.andi-wing-right']:
             self.assertGreater(self.page.locator(selector).evaluate('(element) => element.getAnimations().length'), 0)
+
+
+    def test_19_package_builder_and_marketing_sections(self):
+        expect(self.page.locator('#experiencias .experience-category')).to_have_count(4)
+        expect(self.page.locator('#beneficios .badge-benefit')).to_have_count(4)
+        expect(self.page.locator('#criterios .criteria-grid article')).to_have_count(3)
+        self.page.locator('#builder-stay').select_option('68000')
+        self.page.locator('#builder-excursion').select_option('25000')
+        self.page.locator('[data-builder-extra]').first.check()
+        expect(self.page.locator('#builder-total')).to_contain_text('111.000')
+        self.page.locator('#builder-reset').click()
+        expect(self.page.locator('#builder-total')).to_contain_text('0')
+        expect(self.page.locator('.faq-list details')).to_have_count(5)
+        expect(self.page.locator('.footer-payments')).to_contain_text('Débito')
+        expect(self.page.locator('.footer-payments')).to_contain_text('Crédito')
+        expect(self.page.locator('.footer-payments')).to_contain_text('Efectivo')
 
     def test_18_team_is_readable_without_javascript(self):
         with self.browser.new_context(java_script_enabled=False) as context:
