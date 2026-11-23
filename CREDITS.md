@@ -43,3 +43,15 @@ Referencias de las copias utilizadas:
 ## Galería «Vivido en primera persona»
 
 La galería utiliza `mendoza.jpg`, `buenos-aires.jpg`, `bariloche.jpg` e `iguazu.jpg`, que ya están documentadas en la tabla de procedencia de las fotografías. Se presentan como imágenes ilustrativas de destinos, no como testimonios ni fotografías de visitas realizadas por usuarios de Rumbo Vivo.
+
+
+## Fotografías de actividades en «Vivido en primera persona»
+
+Estas imágenes externas reemplazan las fotografías de paisajes de la galería para mostrar personas participando de las actividades narradas. Se utilizan como referencias visuales ilustrativas; no son testimonios de usuarios ni evidencias de experiencias ofrecidas por Rumbo Vivo.
+
+- **Enoturismo en Mendoza:** [Gobierno de Mendoza — visita a viñedos de Bodega Doña Paula](https://prensa.mendoza.gob.ar/dona-paula-duena-del-oro-internacional-por-sus-practicas-sustentables/). Imagen alojada en el portal de prensa del Gobierno de Mendoza.
+- **Recorrido cultural en Buenos Aires:** [Tinto DMC — Walking Tours](https://tintodmc.com/). Imagen publicada en el sitio del operador turístico.
+- **Trekking en Patagonia:** [Cascada Expediciones — Trek Cerro Torre y Fitz Roy](https://www.cascada.travel/es/tour/trek-cerro-torre-y-fitzroy-sku-pat093). Imagen publicada en el sitio del operador turístico.
+- **Encuentro gastronómico en Misiones:** [La Nación — visita a una aldea mbya y preparación de alimentos tradicionales](https://www.lanacion.com.ar/sociedad/viaje-a-lo-profundo-de-la-selva-misionera-para-conocer-la-intimidad-de-una-aldea-mbya-nid19102021/). Imagen publicada en la nota periodística.
+
+Las imágenes permanecen alojadas en sus sitios de origen y se muestran mediante enlaces externos. Su disponibilidad depende de esos sitios y de sus condiciones de uso.
