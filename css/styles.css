@@ -3685,3 +3685,20 @@ dialog::backdrop {
   .delivery2-item figcaption { flex-wrap: wrap; }
   .delivery2-item figcaption::after { width: 100%; margin-left: 38px; }
 }
+
+/* Galería de experiencias: Vivido en primera persona */
+.lived-section { background: #f1f2e9; }
+.lived-section .section-heading { align-items: flex-end; }
+.lived-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 17px; }
+.lived-card { overflow: hidden; border: 1px solid #dfe4da; border-radius: 14px; background: #fff; transition: transform .25s ease, box-shadow .25s ease; }
+.lived-card:hover { transform: translateY(-4px); box-shadow: 0 12px 35px #143b2c12; }
+.lived-photo { display: block; height: 205px; overflow: hidden; background: #e6eadf; }
+.lived-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.lived-card:hover .lived-photo img { transform: scale(1.04); }
+.lived-card-copy { padding: 18px 17px 20px; }
+.lived-tag { display: inline-block; margin-bottom: 10px; color: #78936a; font-size: 9px; font-weight: 800; letter-spacing: 1.2px; }
+.lived-card-copy h3 { margin: 0 0 9px; color: var(--forest); font-size: 18px; }
+.lived-card-copy p { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.lived-disclaimer { margin-top: 18px; color: #737d70; font-size: 10px; text-align: right; }
+@media (max-width: 1000px) { .lived-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .lived-grid { grid-template-columns: 1fr; gap: 14px; } .lived-photo { height: 220px; } .lived-disclaimer { text-align: left; } }
