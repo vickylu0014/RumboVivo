@@ -92,7 +92,7 @@ Andi es un cóndor andino original de plumaje gris oscuro, collar blanco y pico 
 
 Para agregar alojamientos, mantené un `id` único en `js/data.js` y usá el identificador de uno de los destinos. El orden de los cinco valores de `indicators` coincide con `indicatorNames`. `blocked` contiene intervalos de días relativos a hoy, con inicio incluido y fin excluido. Las imágenes deben estar en `assets/images`; si falla una foto se muestra una ilustración local.
 
-La interfaz usa DM Sans y Fraunces, distribuidas por Google Fonts, alojadas localmente. La galería «Vivido en primera persona» carga fotografías externas con sus créditos visibles; por eso esa sección requiere conexión a internet. Respeta la preferencia de movimiento reducido, incluye acceso por teclado, etiquetas de formulario, estados de error y diálogos que se cierran con Escape. El diseño se comprobó desde 360 hasta 1920 px.
+La interfaz usa DM Sans y Fraunces, distribuidas por Google Fonts, alojadas localmente. Las fotografías de «Vivido en primera persona» reutilizan imágenes locales del catálogo visual, cuyas fuentes originales están detalladas en `CREDITS.md`. Respeta la preferencia de movimiento reducido, incluye acceso por teclado, etiquetas de formulario, estados de error y diálogos que se cierran con Escape. El diseño se comprobó desde 360 hasta 1920 px.
 
 ## Datos en el navegador
 
