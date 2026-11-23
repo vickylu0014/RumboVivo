@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/data.js" defer></script>
     <script src="js/app.js" defer></script>
+    <script src="js/marketing.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -150,10 +151,12 @@
         <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
           <a href="#inicio" class="nav-home">Inicio</a
           ><a href="#destinos">Destinos</a
+          ><a href="#experiencias">Experiencias</a
           ><a href="#alojamientos">Alojamientos</a
           ><a href="#impacto">Triple impacto <span class="nav-dot"></span></a
           ><a href="#como-funciona">Cómo funciona</a
           ><a href="#nosotros">Nosotros</a
+          ><a href="#beneficios">Beneficios</a
           ><a href="#entregas">Entregas</a
           ><a href="#contacto" class="mobile-contact">Contacto</a>
         </nav>
@@ -355,6 +358,33 @@
         </p>
       </section>
 
+      <section class="andi-feature container" id="andi" aria-label="Conocé a Andi">
+        <aside class="andi-intro reveal" aria-labelledby="andi-title">
+          <div class="andi-portrait">
+            <img
+              src="assets/images/andi.svg"
+              alt="Andi, un cóndor andino de plumaje gris oscuro, collar blanco y pico dorado, con las alas abiertas y detalles verdes"
+              width="320"
+              height="336"
+              loading="lazy"
+            />
+          </div>
+          <div class="andi-copy">
+            <p class="eyebrow">UN COMPAÑERO DE VIAJE</p>
+            <h3 id="andi-title">Hola, soy <em>Andi.</em></h3>
+            <p>
+              Nuestro cóndor andino representa el cuidado de la biodiversidad y
+              el turismo responsable. Nos acompaña para recordar que cada
+              destino es el hogar de su flora, su fauna y sus comunidades.
+            </p>
+            <span class="andi-motto"
+              ><svg class="icon" aria-hidden="true"><use href="#i-leaf" /></svg>
+              Conocer también es cuidar.</span
+            >
+          </div>
+        </aside>
+      </section>
+
       <section
         id="destinos"
         class="section container"
@@ -395,6 +425,66 @@
           >Descubrí el triple impacto
           <svg class="icon"><use href="#i-arrow" /></svg
         ></a>
+      </section>
+
+      <section id="experiencias" class="section experience-showcase" aria-labelledby="experience-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">FORMAS DISTINTAS DE CONOCER</p>
+              <h2 id="experience-title">Experiencias que <em>dejan huella.</em></h2>
+            </div>
+            <p>Elegí qué te gustaría vivir: cada propuesta puede acercarte a la cultura, los sabores, la naturaleza y las personas de cada lugar.</p>
+          </div>
+          <div class="experience-category-grid">
+            <a class="experience-category reveal" href="#armar-viaje">
+              <img src="assets/images/buenos-aires.jpg" alt="Calles y arquitectura de Buenos Aires" loading="lazy">
+              <span class="experience-category-shade"></span>
+              <span class="experience-category-copy"><small>01 · IDENTIDAD</small><strong>Culturales</strong><span>Historias, talleres y tradiciones.</span></span>
+            </a>
+            <a class="experience-category reveal" href="#armar-viaje">
+              <img src="assets/images/mendoza.jpg" alt="Paisaje de viñedos en Mendoza" loading="lazy">
+              <span class="experience-category-shade"></span>
+              <span class="experience-category-copy"><small>02 · SABORES</small><strong>Gastronómicas</strong><span>Productos regionales y cocina local.</span></span>
+            </a>
+            <a class="experience-category reveal" href="#armar-viaje">
+              <img src="assets/images/bariloche.jpg" alt="Bosques y lagos de la Patagonia" loading="lazy">
+              <span class="experience-category-shade"></span>
+              <span class="experience-category-copy"><small>03 · NATURALEZA</small><strong>Ambientales</strong><span>Recorridos para descubrir y cuidar.</span></span>
+            </a>
+            <a class="experience-category reveal" href="#armar-viaje">
+              <img src="assets/images/iguazu.jpg" alt="Entorno natural de Cataratas del Iguazú" loading="lazy">
+              <span class="experience-category-shade"></span>
+              <span class="experience-category-copy"><small>04 · ENCUENTROS</small><strong>Comunitarias</strong><span>Proyectos y saberes de cada comunidad.</span></span>
+            </a>
+          </div>
+          <div class="featured-packages">
+            <div class="featured-packages-heading">
+              <div><p class="eyebrow">PARA INSPIRAR TU PRÓXIMA SALIDA</p><h3>Recomendadas y de temporada</h3></div>
+              <span class="illustrative-label">Precios de referencia</span>
+            </div>
+            <div class="package-highlight-grid">
+              <article class="package-highlight">
+                <span class="package-ribbon">RECOMENDADA</span>
+                <h4>Sabores del Valle</h4><p>Mendoza · visita a productor, degustación y almuerzo regional.</p>
+                <strong>Desde $ 60.000</strong><small>ARS · valor ilustrativo por participante</small>
+                <a href="#armar-viaje">Personalizar experiencia <svg class="icon"><use href="#i-arrow" /></svg></a>
+              </article>
+              <article class="package-highlight">
+                <span class="package-ribbon seasonal">TEMPORADA</span>
+                <h4>Senderos y paisajes</h4><p>Bariloche · caminata guiada y propuesta de naturaleza.</p>
+                <strong>Desde $ 38.000</strong><small>ARS · valor ilustrativo por participante</small>
+                <a href="#armar-viaje">Personalizar experiencia <svg class="icon"><use href="#i-arrow" /></svg></a>
+              </article>
+              <article class="package-highlight">
+                <span class="package-ribbon">RECOMENDADA</span>
+                <h4>Historias de la tierra colorada</h4><p>Iguazú · recorrido local y encuentro con productores.</p>
+                <strong>Desde $ 45.000</strong><small>ARS · valor ilustrativo por participante</small>
+                <a href="#armar-viaje">Personalizar experiencia <svg class="icon"><use href="#i-arrow" /></svg></a>
+              </article>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section
@@ -545,6 +635,56 @@
                 <svg class="icon"><use href="#i-arrow" /></svg>
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="armar-viaje" class="section builder-section" aria-labelledby="builder-title">
+        <div class="container builder-layout">
+          <div class="builder-intro reveal">
+            <p class="eyebrow">ARMÁ UNA PROPUESTA A TU MEDIDA</p>
+            <h2 id="builder-title">Tu viaje, <em>pieza por pieza.</em></h2>
+            <p>Combiná alojamiento, excursiones y actividades. Después sumá transporte, gastronomía u otros servicios según lo que necesites.</p>
+            <p class="builder-note">Los importes son orientativos y sirven para mostrar cómo funcionaría la selección. La cotización real dependería del prestador, las fechas y los requisitos de cada experiencia.</p>
+          </div>
+          <div class="builder-panel reveal">
+            <div class="builder-selects">
+              <label>Alojamiento
+                <select id="builder-stay">
+                  <option value="0">Sin alojamiento</option>
+                  <option value="68000">Posada regional · $ 68.000</option>
+                  <option value="82000">Cabaña de montaña · $ 82.000</option>
+                  <option value="59000">Hotel independiente · $ 59.000</option>
+                </select>
+              </label>
+              <label>Excursiones
+                <select id="builder-excursion">
+                  <option value="0">Sin excursión</option>
+                  <option value="25000">Visita guiada a productor · $ 25.000</option>
+                  <option value="18000">Caminata interpretativa · $ 18.000</option>
+                  <option value="22000">Recorrido cultural · $ 22.000</option>
+                </select>
+              </label>
+              <label>Actividades
+                <select id="builder-activity">
+                  <option value="0">Sin actividad</option>
+                  <option value="22000">Taller de cocina regional · $ 22.000</option>
+                  <option value="19000">Taller de artesanías · $ 19.000</option>
+                  <option value="16000">Experiencia comunitaria · $ 16.000</option>
+                </select>
+              </label>
+            </div>
+            <fieldset class="builder-extras">
+              <legend>Servicios adicionales</legend>
+              <label><input type="checkbox" data-builder-extra value="18000"><span>Transporte local <strong>+$ 18.000</strong></span></label>
+              <label><input type="checkbox" data-builder-extra value="16000"><span>Gastronomía regional <strong>+$ 16.000</strong></span></label>
+              <label><input type="checkbox" data-builder-extra value="8000"><span>Materiales y equipamiento <strong>+$ 8.000</strong></span></label>
+            </fieldset>
+            <div class="builder-total">
+              <div><small>Estimación de los servicios elegidos</small><strong id="builder-total">$ 0 ARS</strong></div>
+              <button class="button button-green" id="builder-reset" type="button">Limpiar selección</button>
+            </div>
+            <p class="builder-disclaimer" id="builder-summary" aria-live="polite">Elegí los servicios para calcular una estimación ilustrativa.</p>
           </div>
         </div>
       </section>
@@ -846,30 +986,7 @@
             </details>
           </div>
         </div>
-        <aside class="andi-intro reveal" aria-labelledby="andi-title">
-          <div class="andi-portrait">
-            <img
-              src="assets/images/andi.svg"
-              alt="Andi, un cóndor andino de plumaje gris oscuro, collar blanco y pico dorado, con las alas abiertas y detalles verdes"
-              width="320"
-              height="336"
-              loading="lazy"
-            />
-          </div>
-          <div class="andi-copy">
-            <p class="eyebrow">UN COMPAÑERO DE VIAJE</p>
-            <h3 id="andi-title">Hola, soy <em>Andi.</em></h3>
-            <p>
-              Nuestro cóndor andino representa el cuidado de la biodiversidad y
-              el turismo responsable. Nos acompaña para recordar que cada
-              destino es el hogar de su flora, su fauna y sus comunidades.
-            </p>
-            <span class="andi-motto"
-              ><svg class="icon" aria-hidden="true"><use href="#i-leaf" /></svg>
-              Conocer también es cuidar.</span
-            >
-          </div>
-        </aside>
+
         <div class="team-section" aria-labelledby="team-title">
           <div class="team-heading">
             <div>
@@ -932,6 +1049,46 @@
               </svg>
             </li>
           </ol>
+        </div>
+      </section>
+
+      <section id="criterios" class="section criteria-section" aria-labelledby="criteria-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow">CÓMO ELEGIMOS</p><h2 id="criteria-title">Criterios con <em>sentido.</em></h2></div>
+            <p>No buscamos que todas las propuestas sean iguales. Queremos que cada una aporte desde sus propias características y comparta una mirada de triple impacto.</p>
+          </div>
+          <div class="criteria-grid">
+            <article><span>01 · SOCIAL</span><h3>Personas y comunidades</h3><p>Valoramos el respeto por la identidad local, la inclusión, el trabajo digno y la participación de quienes viven en cada destino.</p></article>
+            <article><span>02 · ECONÓMICO</span><h3>Economías de cercanía</h3><p>Priorizamos emprendimientos regionales, proveedores locales y propuestas que distribuyan oportunidades en el destino.</p></article>
+            <article><span>03 · AMBIENTAL</span><h3>Cuidado del entorno</h3><p>Consideramos el uso responsable de recursos, la gestión de residuos y el respeto por los paisajes y ecosistemas.</p></article>
+          </div>
+          <p class="criteria-note">Estos criterios orientan la selección propuesta por Rumbo Vivo. La información de cada prestador se presenta de forma transparente y no equivale a una certificación externa.</p>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section benefits-section" aria-labelledby="benefits-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow">ELEGIR CON PROPÓSITO TAMBIÉN SUMA</p><h2 id="benefits-title">Beneficios que <em>acompañan tu rumbo.</em></h2></div>
+            <p>Las insignias ayudan a reconocer las dimensiones que tenemos en cuenta al seleccionar una propuesta. También acercamos promociones para que puedas organizar tu viaje.</p>
+          </div>
+          <div class="badge-benefit-grid">
+            <article class="badge-benefit"><span class="impact-badge">✦ Economía local</span><h3>Impulso local</h3><p>Identifica propuestas vinculadas con comercios, productores y emprendimientos de la zona.</p><small>Beneficio propuesto: acceso a promociones de prestadores locales.</small></article>
+            <article class="badge-benefit"><span class="impact-badge">✦ Inclusión</span><h3>Experiencias para todos</h3><p>Destaca información declarada sobre accesibilidad e inclusión para ayudar a elegir con más datos.</p><small>Beneficio propuesto: condiciones especiales en experiencias seleccionadas.</small></article>
+            <article class="badge-benefit"><span class="impact-badge">✦ Ambiente</span><h3>Huella consciente</h3><p>Señala prácticas vinculadas con residuos, recursos y cuidado del entorno.</p><small>Beneficio propuesto: promociones en actividades de naturaleza.</small></article>
+            <article class="badge-benefit"><span class="impact-badge">✦ Comunidad</span><h3>Encuentros auténticos</h3><p>Reconoce propuestas que se relacionan con saberes, cultura y actores de la comunidad.</p><small>Beneficio propuesto: ventajas en actividades comunitarias.</small></article>
+          </div>
+          <div class="promotion-panel">
+            <div><p class="eyebrow">PROMOCIONES</p><h3>Un motivo más para empezar a planificar.</h3><p>Los descuentos se aplicarán según las condiciones acordadas con cada prestador.</p></div>
+            <ul>
+              <li><strong>Reserva anticipada</strong><span>Beneficios en experiencias seleccionadas al reservar con anticipación.</span></li>
+              <li><strong>Viajes en grupo</strong><span>Tarifas especiales cuando los costos logísticos permiten distribuir gastos.</span></li>
+              <li><strong>Promociones estacionales</strong><span>Propuestas especiales en períodos de menor demanda.</span></li>
+              <li><strong>Usuarios recurrentes</strong><span>Beneficios para quienes vuelven a elegir Rumbo Vivo.</span></li>
+            </ul>
+          </div>
+          <p class="criteria-note">Insignias y beneficios en etapa de propuesta. No constituyen certificaciones, descuentos automáticos ni recompensas acumulables.</p>
         </div>
       </section>
 
@@ -1015,7 +1172,7 @@
           <div class="contact-copy reveal">
             <p class="eyebrow">LAS BUENAS IDEAS EMPIEZAN CON UNA CHARLA</p>
             <h2 id="contact-title">
-              ¿Compartimos<br /><em>el próximo rumbo?</em>
+              Contactanos<br /><em>estamos para leerte.</em>
             </h2>
             <p>
               Una pregunta, una sugerencia o una forma distinta de mirar el
@@ -1087,7 +1244,7 @@
             <div class="contact-submit">
               <small>No se envía información a un servidor.</small
               ><button class="button button-green" type="submit">
-                Probar formulario
+                Enviar consulta
                 <svg class="icon"><use href="#i-arrow" /></svg>
               </button>
             </div>
@@ -1098,6 +1255,16 @@
               hidden
             ></p>
           </form>
+        </div>
+        <div class="container faq-section" aria-labelledby="faq-title">
+          <div class="section-heading"><div><p class="eyebrow">ANTES DE EMPEZAR</p><h2 id="faq-title">Preguntas <em>frecuentes.</em></h2></div><p>Algunas respuestas para conocer mejor cómo funciona la propuesta.</p></div>
+          <div class="faq-list">
+            <details><summary>¿Rumbo Vivo realiza reservas actualmente?</summary><p>No. La página es una demostración académica. Permite explorar propuestas y armar estimaciones ilustrativas, pero no confirma reservas ni procesa pagos.</p></details>
+            <details><summary>¿Los precios que aparecen son definitivos?</summary><p>No. Son valores de referencia para mostrar cómo se podrían presentar las experiencias. Una cotización real dependería de fechas, disponibilidad, prestadores y servicios elegidos.</p></details>
+            <details><summary>¿Cómo seleccionan los prestadores?</summary><p>La propuesta contempla criterios sociales, económicos y ambientales, con información clara sobre las prácticas declaradas por cada prestador.</p></details>
+            <details><summary>¿Qué significa «Estamos expandiéndonos»?</summary><p>Los destinos internacionales se mantienen visibles como parte de la visión de crecimiento, pero la prioridad inicial de Rumbo Vivo está puesta en destinos argentinos.</p></details>
+            <details><summary>¿Cómo puedo consultar o proponer una experiencia?</summary><p>Podés completar el formulario de contacto. En esta versión de demostración los datos se validan en el navegador, pero no se envían a un servidor.</p></details>
+          </div>
         </div>
       </section>
       <section
@@ -1191,6 +1358,8 @@
           <div class="footer-links">
             <a href="#destinos">Explorar destinos</a
             ><a href="#alojamientos">Alojamientos</a
+            ><a href="#experiencias">Experiencias</a
+            ><a href="#beneficios">Beneficios</a
             ><a href="#impacto">Triple impacto</a
             ><a href="#como-funciona">Cómo funciona</a
             ><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
@@ -1200,6 +1369,7 @@
             <svg class="icon"><use href="#i-northeast" /></svg
           ></a>
         </div>
+        <div class="footer-payments" aria-label="Medios de pago previstos"><span>Medios de pago previstos</span><strong>Débito</strong><strong>Crédito</strong><strong>Efectivo</strong><small>Opciones ilustrativas · pagos no habilitados en esta demo</small></div>
         <div class="footer-bottom">
           <p>
             Rumbo Vivo · Proyecto académico de Marketing ·
