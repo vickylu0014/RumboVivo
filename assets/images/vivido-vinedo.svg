@@ -1,1 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#b8d6c0"/><stop offset="1" stop-color="#f2d8ad"/></linearGradient></defs><rect width="1200" height="800" fill="url(#s)"/><path d="M0 350 240 160 430 340 650 120 930 360 1200 180V800H0Z" fill="#6d8d70"/><path d="M0 470Q300 350 600 470T1200 440V800H0Z" fill="#8a9b58"/><g stroke="#456548" stroke-width="14" fill="none"><path d="M0 550Q300 450 600 550T1200 520M0 650Q300 550 600 650T1200 620"/></g><g fill="#315b3e"><path d="M90 470q40-80 80 0q-40 65-80 0m180-40q40-80 80 0q-40 65-80 0m250 55q40-80 80 0q-40 65-80 0m250-70q40-80 80 0q-40 65-80 0m180 50q40-80 80 0q-40 65-80 0"/></g><g><circle cx="490" cy="390" r="35" fill="#9b6044"/><path d="M450 430h80l28 150h-135Z" fill="#f4f0df"/><path d="m460 580-15 110m65-110 20 110" stroke="#344c43" stroke-width="24"/><circle cx="680" cy="405" r="34" fill="#d39b72"/><path d="M642 444h76l32 135H615Z" fill="#bd6d4d"/><path d="m640 580-10 110m65-110 24 110" stroke="#354b40" stroke-width="23"/><path d="m530 475 100-35" stroke="#f1e6ce" stroke-width="18" stroke-linecap="round"/><path d="M600 445q20-55 48-20" stroke="#f1e6ce" stroke-width="10" fill="none"/></g><g fill="#fff"><path d="M0 0h1200v800H0z" opacity="0"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Visita a un viñedo en Mendoza</title><desc id="desc">Una productora local recibe a dos visitantes entre hileras de vides, con la cordillera al fondo.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9bc7d1"/><stop offset="1" stop-color="#e9d7b3"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#a6ae70"/><stop offset="1" stop-color="#647b50"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#9c8958"/><stop offset="1" stop-color="#65583e"/></linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<circle cx="970" cy="135" r="68" fill="#f4d28a"/>
+<!-- Andes -->
+<path d="M0 390 150 230 245 320 390 145 535 335 675 190 825 355 960 215 1200 390V510H0Z" fill="#718c91"/>
+<path d="m290 255 100-110 98 127-54-27-43 13-37-18-31 19Z M580 285 675 190 772 293l-55-28-35 15-31-19-31 22Z M880 300 960 215 1050 310l-48-24-38 16-29-17-28 18Z" fill="#f5f0df"/>
+<path d="M0 390q240-75 470 0t730-5v150H0Z" fill="#9caa78"/>
+<path d="M0 500q300-80 600 5t600-5v300H0Z" fill="url(#ground)"/>
+<!-- vineyard rows -->
+<g fill="none" stroke-linecap="round">
+ <g stroke="#d0b77a" stroke-width="13" opacity=".9">
+  <path d="M40 800 330 475M190 800 430 475M360 800 535 475M550 800 650 475M760 800 770 475M970 800 900 475M1160 800 1030 475"/>
+ </g>
+ <g stroke="#365c3e" stroke-width="18">
+  <path d="M-40 610Q280 530 560 610T1240 600"/>
+  <path d="M-40 700Q280 620 560 700T1240 690"/>
+ </g>
+</g>
+<g fill="#456e45">
+ <g><ellipse cx="105" cy="590" rx="48" ry="27"/><ellipse cx="225" cy="570" rx="52" ry="29"/><ellipse cx="360" cy="560" rx="50" ry="27"/><ellipse cx="500" cy="580" rx="48" ry="26"/><ellipse cx="680" cy="570" rx="52" ry="28"/><ellipse cx="850" cy="565" rx="52" ry="28"/><ellipse cx="1020" cy="570" rx="55" ry="29"/><ellipse cx="1150" cy="585" rx="48" ry="27"/></g>
+ <g fill="#6e8b50"><ellipse cx="165" cy="660" rx="60" ry="30"/><ellipse cx="390" cy="650" rx="62" ry="31"/><ellipse cx="620" cy="655" rx="62" ry="31"/><ellipse cx="870" cy="650" rx="65" ry="32"/><ellipse cx="1090" cy="660" rx="62" ry="31"/></g>
+</g>
+<!-- tasting table -->
+<path d="M420 570h390l-35 24H455Z" fill="#704b35"/><path d="M455 590v112m315-112v112" stroke="#60442f" stroke-width="22"/>
+<g fill="#6e344c"><circle cx="560" cy="560" r="13"/><circle cx="582" cy="550" r="13"/><circle cx="602" cy="563" r="13"/><circle cx="624" cy="550" r="13"/><circle cx="645" cy="563" r="13"/></g>
+<!-- local host -->
+<g>
+ <path d="M700 365q-2-56 48-60 53 4 48 61l-10 40h-76Z" fill="#4c3026"/>
+ <ellipse cx="748" cy="376" rx="38" ry="48" fill="#bd805e"/>
+ <path d="M711 367q5-65 51-58 39 5 43 48-31-17-52-34-14 27-42 44" fill="#4c3026"/>
+ <path d="M685 430q62-39 125 0l34 142H654Z" fill="#a94f3f"/>
+ <path d="m696 443 52 46 51-46" fill="none" stroke="#e5c7a7" stroke-width="10"/>
+ <path d="m690 560-8 95m113-95 17 95" stroke="#493d34" stroke-width="25"/>
+ <path d="M685 455q-55 34-87 75" stroke="#bd805e" stroke-width="24" fill="none" stroke-linecap="round"/>
+ <path d="M806 454q42 32 52 65" stroke="#bd805e" stroke-width="23" fill="none" stroke-linecap="round"/>
+</g>
+<!-- visitor 1 -->
+<g>
+ <ellipse cx="350" cy="395" rx="34" ry="42" fill="#d59b75"/>
+ <path d="M316 391q-2-55 40-58 40 7 35 56l-17-25-42 5Z" fill="#49352d"/>
+ <path d="M310 448q42-30 84 0l25 123H288Z" fill="#e9e2d2"/>
+ <path d="m315 562-8 92m64-92 15 92" stroke="#354b43" stroke-width="23"/>
+ <path d="M390 470q45 5 73 42" stroke="#d59b75" stroke-width="19" fill="none" stroke-linecap="round"/>
+ <path d="M463 510v43" stroke="#f5e9d5" stroke-width="8"/><path d="M450 552h27l-5 29h-17Z" fill="#f5e9d5"/>
+</g>
+<!-- visitor 2 -->
+<g>
+ <ellipse cx="510" cy="405" rx="34" ry="42" fill="#e1b28e"/>
+ <path d="M477 399q-4-54 35-58 42 2 41 55l-17-25-42 4Z" fill="#3c302b"/>
+ <path d="M467 455q44-30 87 0l24 116H446Z" fill="#6c8c86"/>
+ <path d="m470 562-7 92m67-92 12 92" stroke="#3f453c" stroke-width="23"/>
+ <path d="M476 475q-39 14-59 48" stroke="#e1b28e" stroke-width="18" fill="none" stroke-linecap="round"/>
+ <path d="M410 522q-7-22 13-25 19 4 13 25Z" fill="#b5d5dc"/>
+</g>
+<!-- foreground grape leaves -->
+<g fill="#355f3e"><path d="M0 730q50-90 100-15-55 5-58 85Z"/><path d="M1050 760q45-100 105-30-50 5-60 70Z"/><path d="M1120 690q45-70 80-8-40 0-45 58Z"/></g>
+<g fill="#f3e4c7" opacity=".9"><circle cx="86" cy="115" r="3"/><circle cx="130" cy="150" r="2"/><circle cx="1070" cy="240" r="3"/></g>
+</svg>
