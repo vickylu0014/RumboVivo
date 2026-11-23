@@ -37,3 +37,15 @@ Referencias de las copias utilizadas:
 - RomaTourism: `b23c397da3e3034075dd170a7da27f04a211787d`.
 - responsive-travel-website-3: `9d4175ad1a60910c58422166dcdf9402f1fe1f0e`.
 - responsive-real-state-website: `4da3a9eb4f1c71aea5422f59c476cb742c5f1658`.
+
+
+## Galería «Vivido en primera persona»
+
+Las fotografías de esta sección son referencias visuales y no representan clientes ni experiencias contratadas por Rumbo Vivo. Se enlazan las fuentes consultadas para dar crédito:
+
+- [Winedering — experiencia en Bodega Hinojosa](https://www.winedering.com/es/welcome-to-the-family-wine-tasting-at-bodega-hinojosa_d3552_travel).
+- [MassNegocios — Finca Las Divas y gastronomía regional](https://massnegocios.com/finca-las-divas-celebra-la-apertura-de-su-nuevo-restaurante-en-gualtallary/).
+- [Estación Latina / Prensa Jujuy — Maimará](https://estacionlatina.com.ar/blog/2026/01/26/maimara-una-escapada-corta-una-experiencia-completa/).
+- [Unsplash — cartel de establecimiento vitivinícola](https://unsplash.com/photos/a-weathered-sign-reads-los-tonels-roSi4hT-krQ).
+
+La disponibilidad y las condiciones de reutilización de cada fotografía dependen de su fuente original.
