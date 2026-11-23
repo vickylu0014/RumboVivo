@@ -3702,3 +3702,7 @@ dialog::backdrop {
 .lived-disclaimer { margin-top: 18px; color: #737d70; font-size: 10px; text-align: right; }
 @media (max-width: 1000px) { .lived-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .lived-grid { grid-template-columns: 1fr; gap: 14px; } .lived-photo { height: 220px; } .lived-disclaimer { text-align: left; } }
+
+.lived-credits { margin-top: 7px; color: #737d70; font-size: 10px; text-align: right; }
+.lived-credits a { color: var(--forest); text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 560px) { .lived-credits { text-align: left; line-height: 1.8; } }
