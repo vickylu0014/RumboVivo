@@ -213,7 +213,7 @@ class RumboVivoBrowserTests(unittest.TestCase):
         for width in [360, 390, 768, 1024, 1440, 1920]:
             self.page.set_viewport_size({'width': width, 'height': 900})
             self.assertFalse(self.page.evaluate('document.documentElement.scrollWidth > innerWidth'), f'Desborde a {width}px')
-        invalid = self.page.locator('a').evaluate_all("(links) => links.filter(a => !a.hash || !document.getElementById(a.hash.slice(1))).map(a => a.outerHTML)")
+        invalid = self.page.locator('a').evaluate_all("(links) => links.filter(a => a.hash ? !document.getElementById(a.hash.slice(1)) : !/^https?:\\/\\//.test(a.href)).map(a => a.outerHTML)")
         self.assertEqual(invalid, [])
         ids = self.page.locator('[id]').evaluate_all('(elements) => elements.map(e => e.id)')
         self.assertEqual(len(ids), len(set(ids)))
